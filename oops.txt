@@ -1,0 +1,72 @@
+Inheritance:-
+1)Single Level :- 
+class Father():
+    def fun1(self):
+        print("i can do job") 
+class Son(Father):
+    def fun2(self):
+        print("i can play") 
+ob=Son() 
+ob.fun1()  
+2)Multilevel :- 
+class GrandFather():
+    def fun1(self):
+        print("i can farm") 
+class Father(GrandFather):
+    def fun2(self):
+        print("i can do job") 
+class Son(Father):
+    def fun3(self):
+        print("i can play") 
+ob=Son() 
+ob.fun1() 
+3)Multiple :- 
+class Father():
+    def fun1(self):
+        print("i can do job") 
+class Mother():
+    def fun2(self):
+        print("i can cook") 
+class Son(Father,Mother):
+    def fun3(self):
+        print("i can play") 
+ob=Son()
+ob.fun1()
+
+Method Overload:- 
+class MethodOverload:
+    def fun1(self,a=None,b=None,c=None): 
+        print(a,b,c) 
+ob=MethodOverload() 
+ob.fun1(10,20,30) 
+ob.fun1(10,20) 
+ob.fun1(10) 
+ob.fun1()
+
+
+Method Override:- 
+class MethodOverride(): 
+    def fun1(self):
+        print("i love python") 
+class Child(MethodOverride):
+    def fun1(self):
+        super().fun1() 
+ob=Child() 
+ob.fun1() 
+
+Encapsulation:- 
+class GrandFather():
+    def __init__(self):
+        self._a=10 
+        self.__b=20 
+    def _fun1(self):
+        print("This is our House") 
+    def __fun2(self):
+        print("This is my Farm House") 
+class Father(GrandFather):
+    def fun3(self):
+        print("I have 10cr") 
+ob=GrandFather() 
+ob._GrandFather__fun2()   # Data Mangling 
+
+    

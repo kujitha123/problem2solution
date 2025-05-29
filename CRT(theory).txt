@@ -1,0 +1,44 @@
+lower bound:smallest element arr[index]>=x
+[1 2 3 4 5] x=2
+array i/p=5,10,20
+rainwater trapping  leatcode
+Floor: largest element in the array such that arr[ind]<=x
+ceil:(nothing but lower bound)i.e smallest elemnt in array that arr[ind]>=x
+
+##problems##
+"""painter partition
+split array into k-partition"""
+"""seive of eronthensis"""
+binary search 3 methods
+--rotated sorted array
+--minof max and maxof min 
+
+
+####stacks###
+--creations
+--monotomic stacks
+--raintrapping problem
+
+
+####LINKED LIST###
+*harry and totaise alg*
+--create lls
+--print lls
+--get middle element(slow and fast pointer)
+--delete middle element(slow and fastb pointer)
+--delete at last 
+--insert at first 
+--insert at last
+--insert at middle
+--revrse the LINKED LIST
+--detect loop 
+-- first element in loop of linked list
+
+
+### 
+1 - sort linked LIST(merge sort of linkedlist)
+2.Unique Element in Sorted Array
+3.Palindromic Substrings Count
+4.Prime Range with Sieve and Binary Search
+5.Longest Substring with K Distinct Characters
+6.Rainwater Trapping 
